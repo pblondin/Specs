@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Philippe Blondin" => "info@philippeblondin.ca" }
-  # s.source           = { :git => "https://github.com/pblondin/PBDataSourceKit.git", :tag => s.version.to_s }
-  s.source           = { :git => "/Users/pblondin/Developper/private-pods/PBDataSourceKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/pblondin/PBDataSourceKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/PhilippeBlondin'
 
   s.platform     = :ios, '7.0'
